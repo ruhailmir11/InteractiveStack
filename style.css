@@ -1,0 +1,13 @@
+html, body {
+  background: #fff;
+}
+
+.heading, p {
+  margin:0;
+  padding: 5px;
+}
+
+canvas {
+  margin:15px 0;
+  display: block;
+}
