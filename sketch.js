@@ -68,4 +68,12 @@ function draw() {
     fill('red');
     text( "Overflow", 0, -230 );
   }
+  
+  push();
+  textSize(25);
+  fill(255);
+  noStroke();
+  text("CAPACITY: " + stack.max, -212, height/2 - 25);
+  text("ELEMENTS: " + (stack.capIndex), 0, height/2 - 25);
+  pop();
 }
